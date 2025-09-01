@@ -1,0 +1,24 @@
+sentence-transformers = 2.2.2
+langchain = 0.0.208
+flask
+pypdf
+python-dotenv
+pinecone[grpc] 
+langchain-pinecone
+langchain_community
+langchain-openai
+langchain_experimental
+# Web interface improvements
+flask-cors  # For handling Cross-Origin Resource Sharing
+gunicorn  # Production WSGI server
+# Data processing
+pandas  # For data manipulation
+numpy  # For numerical operations
+scikit-learn  # For additional ML capabilities
+# Medical NLP enhancements
+scispacy  # Scientific & medical text processing
+# Quality and testing
+pytest  # For testing
+black  # Code formatting
+# Monitoring
+prometheus-flask-exporter  # For monitoring metrics

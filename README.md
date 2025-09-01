@@ -13,12 +13,19 @@ A conversational AI chatbot for medical queries.
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/<your-username>/Medicalchatbot.git
+    git clone https://github.com/SKrr8/Medicalchatbot.git
     cd Medicalchatbot
     ```
 
 2. **Create and activate a conda environment**
 
+    **Windows**:
+    ```bash
+    conda create -n medicalchatbot python=3.10
+    conda activate medicalchatbot
+    ```
+
+    **macOS/Linux**:
     ```bash
     conda create -n medicalchatbot python=3.10
     conda activate medicalchatbot
@@ -29,6 +36,13 @@ A conversational AI chatbot for medical queries.
     ```bash
     pip install -r requirements.txt
     ```
+    
+    This will install all required packages including:
+    - LangChain for AI workflows
+    - Flask for the web interface
+    - Sentence Transformers for embeddings
+    - Pinecone for vector database
+    - Additional utilities for medical NLP
 
 4. **Run the application**
 
